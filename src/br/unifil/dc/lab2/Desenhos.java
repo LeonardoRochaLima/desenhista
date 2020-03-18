@@ -46,10 +46,6 @@ public class Desenhos extends JFrame
         g2d.fillArc(70, 90, 58, 45, 180, 180);
 
 
-
-
-
-
         //yellow smile
         g2d.setStroke(new BasicStroke(8));
         g2d.drawOval(200, 50, 100, 100);
@@ -69,9 +65,6 @@ public class Desenhos extends JFrame
         g2d.drawLine(220, 118, 280, 118);
 
 
-
-
-
         //red smile
         g2d.setStroke(new BasicStroke(8));
         g2d.drawOval(350, 50, 100, 100);
@@ -89,6 +82,11 @@ public class Desenhos extends JFrame
         //desenhando boca do vermelho
         g2d.setStroke(new BasicStroke(5));
         g2d.drawArc(373, 108, 55, 40, 0, 180);
+    }
+
+    public static void desenharPC(Graphics2D g2d){
+        g2d.drawRect(50, 50, 100, 200);
+        
     }
     
 }

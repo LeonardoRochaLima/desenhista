@@ -75,6 +75,8 @@ class Tela extends JPanel {
                 break;
             case "Smiles":
                 Desenhos.desenharSmile(g2d);
+            case "Computador":
+                Desenhos.desenharPC(g2d);
             default:
                 Desenhos.desenhoLivre(g2d, getSize());
                 break;
