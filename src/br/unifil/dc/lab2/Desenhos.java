@@ -16,10 +16,18 @@ import java.awt.*;
 public class Desenhos extends JFrame
 {
 
-
+    /**
+     * O método a seguir faz o desenho livre conforme solicitado no método.
+     * @param pincel pincel que faz os desenhos, parâmetro da classe Graphics2D
+     * @param dim dimensao do pincel
+     */
     public static void desenhoLivre(Graphics2D pincel, Dimension dim) {
     }
-    
+
+    /**
+     * O método a seguir faz o desenho de um asterisco, usando linhas comuns.
+     * @param g2d pincel que faz os desenhos, parâmetro da classe Graphics2D
+     */
     public static void desenharAsterisco(Graphics2D g2d) {
         g2d.drawLine(55, 55, 95, 95);
         g2d.drawLine(95, 55, 55, 95);
@@ -27,6 +35,13 @@ public class Desenhos extends JFrame
         g2d.drawLine(50, 75, 100, 75);
     }
 
+    /**
+     * O método a seguir faz o desenho dos smiles conforme solicitado no trabalho.
+     * Um rosto com um sorriso, pintado com uma cor verde,
+     * Um rosto com uma cara comum, pintado com a cor amarela,
+     * E finalmente um rosto triste, pintado com a cor vermelha
+     * @param g2d pincel que faz os desenhos, parâmetro da classe Graphics2D
+     */
     public static void desenharSmile(Graphics2D g2d){
         g2d.setStroke(new BasicStroke(8));
         //Happy green smile
@@ -87,6 +102,13 @@ public class Desenhos extends JFrame
         g2d.drawArc(373, 108, 55, 40, 0, 180);
     }
 
+    /**
+     * O metodo a seguir desenha um computador comum com 3 baias
+     * para CD/DVD, também 2 entradas para disquete,
+     * 2 conectores USB, um conector de microfone e outro de fone de ouvido
+     * e por fim um botão power.
+     * @param g2d pincel que faz os desenhos, parâmetro da classe Graphics2D
+     */
     public static void desenharPC(Graphics2D g2d){
         //desenhando base do pc
         g2d.drawRect(50, 50, 100, 200);
@@ -128,10 +150,22 @@ public class Desenhos extends JFrame
         g2d.drawOval(92, 198, 20, 20);
     }
 
+    /**
+     * O método a seguir faz o desenho da bandeira do brasil com as corres corretas.
+     * @param g2d pincel que faz os desenhos, parâmetro da classe Graphics2D
+     */
     public static void desenharBandeira(Graphics2D g2d){
 
     }
 
+    /**
+     * O método a seguir faz o desenho de um prédio conforme os parâmetros recebidos.
+     * @param g2d pincel que faz os desenhos, parâmetro da classe Graphics2D
+     * @param andares quantidade de andares do prédio
+     * @param apartamentosPorAndar quantidade de apartamentos por andar
+     * @param x posicao inicial do eixo x do desenho
+     * @param y posicao inicial do eixo y do desenho
+     */
     public static void desenharPredios(Graphics2D g2d, int andares, int apartamentosPorAndar, int x, int y){
         int tamanhoPadraoAndar = 50;
         int tamanhoPadraoApartamento = 50;

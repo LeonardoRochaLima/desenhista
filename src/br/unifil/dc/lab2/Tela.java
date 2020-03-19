@@ -85,6 +85,10 @@ class Tela extends JPanel {
                 break;
             case "Prédios":
                 Desenhos.desenharPredios(g2d, 9, 3, 50, 50);
+                break;
+            case "Bandeira":
+                Desenhos.desenharBandeira(g2d);
+                break;
             default:
                 Desenhos.desenhoLivre(g2d, getSize());
                 break;
