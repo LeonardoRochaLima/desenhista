@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80e22e61-7cf5-4d6d-acf7-9138ec97c745" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Desenhos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Desenhos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Tela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Tela.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +132,7 @@
       <workItem from="1584500765099" duration="3393000" />
       <workItem from="1584539270268" duration="12256000" />
       <workItem from="1584618656040" duration="3176000" />
-      <workItem from="1584622676870" duration="476000" />
+      <workItem from="1584622676870" duration="823000" />
     </task>
     <servers />
   </component>

@@ -66,7 +66,6 @@ public class Main extends JFrame {
     /**
      * Ponto de início do programa. Simplesmente informa que é um aplicativo gráfico e passa o controle
      * para o construtor do método. Utiliza uma segunda thread para isso.
-     *
      * @param args Argumentos recebidos da linha de comando.
      */
     public static void main(String[] args) {
