@@ -36,7 +36,7 @@ public class Main extends JFrame {
         });
 
         // Cria e configura o campo de entrada de arranjos
-        String nomesExercicios[] = { "Desenho Livre", "Asterisco", "Smiles", "Computador", "Polígono" };
+        String nomesExercicios[] = { "Desenho Livre", "Asterisco", "Smiles", "Computador", "Prédios" };
         boxListaDesenhos = new JComboBox<String>(nomesExercicios);
 
         // Campo para abrigar e organizar os botões e campos de entrada

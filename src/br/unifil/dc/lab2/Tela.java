@@ -2,6 +2,7 @@ package br.unifil.dc.lab2;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.*;
 
 class Tela extends JPanel {
     
@@ -75,8 +76,15 @@ class Tela extends JPanel {
                 break;
             case "Smiles":
                 Desenhos.desenharSmile(g2d);
+                break;
             case "Computador":
                 Desenhos.desenharPC(g2d);
+                break;
+            case "Bandeira do Brasil":
+                Desenhos.desenharBandeira(g2d);
+                break;
+            case "Prédios":
+                Desenhos.desenharPredios(g2d, 10, 4, 50, 50);
             default:
                 Desenhos.desenhoLivre(g2d, getSize());
                 break;
