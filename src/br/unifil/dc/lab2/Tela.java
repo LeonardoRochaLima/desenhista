@@ -69,6 +69,7 @@ class Tela extends JPanel {
         super.paintComponent(g);
         Graphics2D g2d = (Graphics2D) g;
         exibirInfosUteis(g2d);
+        Dimension dim;
         
         switch(desenhoEscolhido) {
             case "Asterisco":
@@ -80,14 +81,11 @@ class Tela extends JPanel {
             case "Computador":
                 Desenhos.desenharPC(g2d);
                 break;
-            case "Bandeira do Brasil":
-                Desenhos.desenharBandeira(g2d);
-                break;
             case "Prédios":
                 Desenhos.desenharPredios(g2d, 9, 3, 50, 50);
                 break;
             case "Bandeira":
-                Desenhos.desenharBandeira(g2d);
+                Desenhos.desenharBandeira(g2d, getSize());
                 break;
             default:
                 Desenhos.desenhoLivre(g2d, getSize());

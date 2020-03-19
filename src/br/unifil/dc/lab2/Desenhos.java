@@ -15,6 +15,7 @@ import java.awt.*;
  */
 public class Desenhos extends JFrame
 {
+    public int x = 50;
 
     /**
      * O método a seguir faz o desenho livre conforme solicitado no método.
@@ -150,12 +151,50 @@ public class Desenhos extends JFrame
         g2d.drawOval(92, 198, 20, 20);
     }
 
+    public int getXRel(Dimension dim){
+        return (int)(x*dim.width);
+    }
+
     /**
      * O método a seguir faz o desenho da bandeira do brasil com as corres corretas.
      * @param g2d pincel que faz os desenhos, parâmetro da classe Graphics2D
      */
-    public static void desenharBandeira(Graphics2D g2d){
+    public static void desenharBandeira(Graphics2D g2d, Dimension dim){
 
+        int x = 50;
+        int y = 50;
+        int largura = 450;
+        int altura = 250;
+
+        Color verdeEscuro = new Color(47,160,47);
+        g2d.setColor(verdeEscuro);
+
+        g2d.setColor(verdeEscuro);
+        g2d.drawRect(x, y, largura, altura);
+        g2d.fillRect(x, y, largura, altura);
+        g2d.setColor(Color.YELLOW);
+        int primeiroPontoX = x+(largura/2);
+        int primeiroPontoY = y+20;
+        int segundoPontoX = x+largura-20;
+        int segundoPontoY = y+(altura/2);
+        int terceiroPontoX = x+(largura/2);
+        int terceiroPontoY = y+altura-20;
+        int quartoPontoX = x+20;
+        int quartoPontoY = y+(altura/2);
+        int quintoPontoX = x+(largura/2);
+        int quintoPontoY = y+20;
+
+        int[] xPoints = {primeiroPontoX, segundoPontoX, terceiroPontoX, quartoPontoX, quintoPontoX};
+        int[] yPoints = {primeiroPontoY, segundoPontoY, terceiroPontoY, quartoPontoY, quintoPontoY};
+        g2d.drawPolyline(xPoints, yPoints, 5);
+        g2d.fillPolygon(xPoints, yPoints, 5);
+
+
+        Color azulMarinho = new Color(0,0,156);
+        g2d.setColor(azulMarinho);
+        g2d.setColor(azulMarinho);
+        g2d.drawOval(x+(largura/4)+7, y+(altura/4), ((largura/2)-10), (altura/2));
+        g2d.fillOval(x+(largura/4)+7, y+(altura/4), (largura/2)-10, (altura/2));
     }
 
     /**

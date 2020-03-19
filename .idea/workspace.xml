@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80e22e61-7cf5-4d6d-acf7-9138ec97c745" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Desenhos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Desenhos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Tela.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Desenhista/br/unifil/dc/lab2/Tela.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Desenhos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Desenhos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Tela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/unifil/dc/lab2/Tela.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +19,20 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/desenhista$Main.coverage" NAME="Main Coverage Results" MODIFIED="1584501648173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,7 +153,7 @@
       <workItem from="1584500765099" duration="3393000" />
       <workItem from="1584539270268" duration="12256000" />
       <workItem from="1584618656040" duration="3176000" />
-      <workItem from="1584622676870" duration="823000" />
+      <workItem from="1584622676870" duration="12679000" />
     </task>
     <servers />
   </component>
